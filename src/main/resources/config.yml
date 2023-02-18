@@ -1,0 +1,12 @@
+# The Plugins Prefix in Chat
+prefix: "&f&lPickaxeLock &8&l"
+debug: false
+
+# The database settings
+database:
+  host: '172.18.0.1:3306' # pterodactyl connection, specify port using :3306
+  database: 'database'
+  user: 'database'
+  password: 'database'
+
+lockMessage: "&cLock message!"

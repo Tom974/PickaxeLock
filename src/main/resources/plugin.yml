@@ -1,0 +1,11 @@
+name: PickaxeLock
+version: '${project.version}'
+main: dev.tom974.pickaxelock.PickaxeLock
+api-version: 1.18
+authors: [Tom974]
+description: 1.18 Version of PrisonsPickLock
+commands:
+  pickaxelock:
+    description: Opens the gui to change your pickaxe slot!
+    usage: /<command>
+    aliases: [prisonspicklock, prisonpicklock, picklock, prisonspickaxelock, prisonpickaxelock, changeslot]
