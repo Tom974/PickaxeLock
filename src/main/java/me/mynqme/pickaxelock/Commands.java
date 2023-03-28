@@ -1,4 +1,4 @@
-package dev.tom974.pickaxelock;
+package me.mynqme.pickaxelock;
 
 import org.bukkit.ChatColor;
 

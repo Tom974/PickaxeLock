@@ -1,4 +1,4 @@
-package dev.tom974.pickaxelock;
+package me.mynqme.pickaxelock;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

@@ -1,11 +1,11 @@
 name: PickaxeLock
 version: '${project.version}'
-main: dev.tom974.pickaxelock.PickaxeLock
-api-version: 1.18
-authors: [Tom974]
-description: 1.18 Version of PrisonsPickLock
+main: me.mynqme.pickaxelock.PickaxeLock
+api-version: 1.12
+authors: [MyNqme]
+description: 1.12 Version of PickaxeLock
 commands:
   pickaxelock:
     description: Opens the gui to change your pickaxe slot!
     usage: /<command>
-    aliases: [prisonspicklock, prisonpicklock, picklock, prisonspickaxelock, prisonpickaxelock, changeslot]
+    aliases: [prisonspicklock, prisonpicklock, picklock, prisonspickaxelock, prisonpickaxelock, changeslot, lock]
