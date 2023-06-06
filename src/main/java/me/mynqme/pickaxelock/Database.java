@@ -33,7 +33,9 @@ public class Database {
                 PickaxeLock.console("&7 \u2022&f Using Database Password: " + Config.databasePassword);
             }
             Database.connection = DriverManager.getConnection(dbUrl, Config.databaseUser, Config.databasePassword);
-            PickaxeLock.console("&7 \u2022&f Connected to the MySQL database.");
+            if (Config.debug) {
+                PickaxeLock.console("&7 \u2022&f Connected to the MySQL database.");
+            }
         } catch (SQLException e) {
             PickaxeLock.console("&7 \u2022&c Failed to connect to the MySQL database.");
             PickaxeLock.console("&7 \u2022&c Error: " + e.getMessage());
